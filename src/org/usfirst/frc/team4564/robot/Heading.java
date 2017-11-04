@@ -15,6 +15,7 @@ public class Heading {
 	public static final double I = 0;
 	public static final double D = 1;//250.0;
 	
+	//You can change the class type (ADXRS450_Gyro) to a more general class such as AnalogGyro if you are not using this specific SPI gyro model.
 	private ADXRS450_Gyro gyro;
 	//PID takes cumulative angles
 	private PID pid;
